@@ -335,3 +335,14 @@ header.masthead p {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 50px;
+}
+
+#logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+#favicons {
+  text-align: center;
+  margin-left: 38px;
+}
