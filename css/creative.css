@@ -347,3 +347,10 @@ header.masthead p {
   margin-bottom: -15px;
   margin-top: -20px;
 }
+
+#mc_embed_signup{
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  width:100%;
+  
+}
