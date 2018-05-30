@@ -337,12 +337,13 @@ header.masthead p {
     height: 50px;
 }
 
-#logo {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
 #favicons {
   text-align: center;
   margin-left: 38px;
+}
+
+#navlogo {
+  width: 50px;
+  margin-bottom: -15px;
+  margin-top: -20px;
 }
