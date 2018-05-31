@@ -340,6 +340,8 @@ header.masthead p {
 #favicons {
   text-align: center;
   margin-left: 38px;
+  margin-top: 30px;
+  margin-bottom: -80px;
 }
 
 #navlogo {
@@ -352,5 +354,13 @@ header.masthead p {
   clear:left; 
   font:14px Helvetica,Arial,sans-serif; 
   width:100%;
+  
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 15px;
   
 }
