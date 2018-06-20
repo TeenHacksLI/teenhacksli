@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/newHeader.jpg");
+  background-image: url("../img/header3.jpeg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -362,4 +362,26 @@ header.masthead p {
   text-align: center;
   margin-bottom: 15px;
   
+}
+
+.sponsor {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bigSpon{
+  height: 175px;
+}
+
+.medSpon{
+  height: 75px;
+}
+
+.sponsorback{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 5px;
 }
