@@ -183,7 +183,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 5rem;
+  font-size: 10vw;
 }
 
 header.masthead p {
@@ -202,9 +202,6 @@ header.masthead p {
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
   }
 }
 
