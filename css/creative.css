@@ -319,20 +319,6 @@ header.masthead p {
     background-size: cover;
 }
 
-.page-footer{
-    position: static;
-    left: 0px;
-    width: 100%;
-    background-color: #3e99b7;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 50px;
-    margin-bottom: 300px;
-}
-
 #favicons {
   text-align: center;
   margin-left: 38px;
@@ -381,4 +367,16 @@ header.masthead p {
 .cardB{
   background-color: rgba(27, 32, 42, .75);
   border-radius: 25px;
+}
+
+.page-footer{
+    position: static;
+    background-color: #3e99b7;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.page-footer a{
+  color: white;
 }
