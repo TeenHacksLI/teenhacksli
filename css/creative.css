@@ -375,6 +375,7 @@ header.masthead p {
     color: white;
     text-align: center;
     font-family: Helvetica;
+    bottom: 0;
 }
 
 .page-footer a{
