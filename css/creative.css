@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header5.jpeg");
+  background-image: url("../img/header5.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -371,7 +371,7 @@ header.masthead p {
     background-color: #3e99b7;
     color: white;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Open Sans';
     bottom: 0;
 }
 
