@@ -347,10 +347,6 @@ header.masthead p {
 .sponsor {
   max-width: 100%;
   max-height: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .bigSpon{
@@ -358,7 +354,7 @@ header.masthead p {
 }
 
 .medSpon{
-  height: 75px;
+  height: 100px;
 }
 
 .cardB{
