@@ -588,3 +588,11 @@ dd{
 
 }
 /*------------FOOTER STUFF ENDS-------------------*/
+
+.teamH h4{
+  font-size: 20px;
+}
+
+.teamH p{
+  font-size: 15px;
+}
