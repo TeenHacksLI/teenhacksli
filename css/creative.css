@@ -604,7 +604,9 @@ dd{
 
 .res img{
   max-height: 100px;
-  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .res a{
