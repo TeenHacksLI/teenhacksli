@@ -596,3 +596,17 @@ dd{
 .teamH p{
   font-size: 15px;
 }
+
+.res p{
+  text-align: left;
+  font-size: 15px;
+}
+
+.res img{
+  max-height: 100px;
+  float: right;
+}
+
+.res a{
+  color: #4e94aa;
+}
