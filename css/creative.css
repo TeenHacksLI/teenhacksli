@@ -423,6 +423,10 @@ dd{
   padding: 40px;
 }
 
+.res {
+  margin-bottom: 20px;
+}
+
 /*----------------------FOOTER STUFF---------------------------*/
 .footer-distributed{
 	background-color: #3e99b7;
