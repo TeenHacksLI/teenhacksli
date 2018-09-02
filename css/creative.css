@@ -418,9 +418,9 @@ dd{
 }
 
 .newsPic {
-  padding: 40px 30px;
-  max-height: 100%;
   max-width: 100%;
+  max-height: 100%;
+  padding: 40px;
 }
 
 /*----------------------FOOTER STUFF---------------------------*/
