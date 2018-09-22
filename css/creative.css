@@ -418,9 +418,8 @@ dd{
 }
 
 .newsPic {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 40px;
+  max-height: 120px;
+  padding: 10px;
 }
 
 .res {
