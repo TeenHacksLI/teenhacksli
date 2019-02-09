@@ -59,6 +59,10 @@ p{
   background-color: #f2f2f2 !important;
 }
 
+i.sr-icons{
+  color:#37ABD2 !important;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
