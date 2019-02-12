@@ -4,6 +4,23 @@ body{
 	
 }
 
+/*for mobile*/
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(img/eventPics/Scenery/sunset.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #header{
   background-color:#193f49;
   background-image: url("img/eventPics/Scenery/sunset.jpg");
@@ -73,6 +90,10 @@ body{
 
 .bg-gray {
 	background-color:#dedfe0 !important;
+}
+
+.bg-lighter {
+	background-color:#FFF !important;
 }
 
 section.bg-light{
