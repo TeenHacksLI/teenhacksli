@@ -58,7 +58,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url(img/eventPics/Scenery/sunset.jpg) no-repeat center center;
+  background: url(img/skyback.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,6 +84,18 @@ a:hover, a:active {
 }
 
 .bg-light{
+  background-color: #f2f2f2 !important;
+}
+
+.bg-lightBlue{
+	background-color:#AADAFF !important;
+}
+
+.bg-lighter {
+	background-color:#FFF !important;
+}
+
+section.bg-light{
   background-color: #f2f2f2 !important;
 }
 
@@ -259,16 +271,17 @@ section {
 /*--------------------HEADER STUFF END -----------------------*/
 
 /*--------------------GENERAL SECTIONS ----------------------*/
-/* About Section */
+/* About Section ------------*/
 #about{
 	background-color: #5fafc9 !important;
 }
 
-a{
-  color: white;
+i{
+  width: 19%;
 }
+/* FAQ Section ------------------------*/
 
-/* Application Section */
+/* Application Section -----------------*/
 #application button {
 	font-size: 2vw;
 }
@@ -279,17 +292,8 @@ a{
 }
 }
 
-.bg-lightBlue{
-	background-color:#AADAFF !important;
-}
 
-.bg-lighter {
-	background-color:#FFF !important;
-}
-
-section.bg-light{
-  background-color: #f2f2f2 !important;
-}
+/* Logistics Section ----------------*/
 
 .border-darkToPrimary{
 	border-color:#f2f2f2;
@@ -300,6 +304,18 @@ section.bg-light{
 	border-color:#37ABD2;
 	color:#37ABD2;
 }
+
+/* Sponsors Section-------------------- */
+
+.sponsor {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+}
+
+/* News Section-------------------------- */
+
+
 
 #organizer h2{
   font-size: 40px;

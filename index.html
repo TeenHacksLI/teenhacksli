@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
+  
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
 
   <!-- Plugin CSS 
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -105,7 +105,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto text-center mb-3">
           <br>
-          <img src="img/bernie1Flying.png" style="height:16rem;">
+          <img src="img/bernie1Flying.png" style="height:16rem;" class="faa-float animateds">
           <br>
           <br>
           <br>
@@ -171,7 +171,7 @@
 
   <section class="bg-primary" id="about">
     <div class="container">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-lg-10 mx-auto text-center">
           <h2 class="section-heading text-white">About Us</h2>
           <hr class="lightHR my-4">
@@ -180,31 +180,15 @@
           <p class="text-faded mb-4">Founded by Jeffrey Yu and Wesley Pergament, we bring together the brightest students across the tri-state area to engage in “collaborative coding.” We hope to build a hacker community here on Long Island, with an emphasis placed on innovation
             and entrepreneurship.</p>
         </div>
-        <div class="col-lg-8 text-center mx-auto" id="favicons">
-          <a href="mailto:team@teenhacksli.com" target="_blank"><i class="fa fa-3x fa-envelope text-white mb-1 mr-5 sr-icons"></i></a>
-          <a href="https://www.facebook.com/teenhacksli/" target="_blank"><i class="fa fa-3x fa-facebook text-white mb-1 mr-5 sr-icons"></i></a>
-          <a href="https://www.instagram.com/teenhacksli/" target="_blank"><i class="fa fa-3x fa-instagram text-white mb-1 mr-5 sr-icons"></i></a>
-          <a href="https://www.twitter.com/teenhacksli/" target="_blank"><i class="fa fa-3x fa-twitter text-white mb-1 mr-5 sr-icons"></i></a>
-          <a href="https://github.com/TeenHacksLI" target="_blank"><i class="fa fa-3x fa-github text-white mb-1 mr-5 sr-icons"></i></a>
+        <div class="col-lg-8 text-center mx-auto">
+          <a href="mailto:team@teenhacksli.com" target="_blank"><i class="fa fa-3x fa-envelope text-white faa-wrench animated-hover"></i></a>
+          <a href="https://www.facebook.com/teenhacksli/" target="_blank"><i class="fab fa-3x fa-facebook text-white faa-wrench animated-hover"></i></a>
+          <a href="https://www.instagram.com/teenhacksli/" target="_blank"><i class="fab fa-3x fa-instagram text-white faa-wrench animated-hover"></i></a>
+          <a href="https://www.twitter.com/teenhacksli/" target="_blank"><i class="fab fa-3x fa-twitter text-white faa-wrench animated-hover"></i></a>
+          <a href="https://github.com/TeenHacksLI" target="_blank"><i class="fab fa-3x fa-github text-white faa-wrench animated-hover"></i></a>
         </div>
       </div>
       <div class="row">
-        <!--
-          <div class="col-lg-8 mx-auto text-center">
-            <div class="row mx-auto">
-              <div class="col-lg-4 col-md-6 mx-auto text-center">
-                <img class="headshot rounded-circle" src="img/headshots/Jeffrey headshot1.jpeg">
-                <h4 class="text-white">Jeffrey Yu</h4>
-                <p class="text-white">Co-Founder/Director</p>
-              </div>
-              <div class="col-lg-4 col-md-6 mx-auto text-center">
-                <img class="headshot rounded-circle" src="img/headshots/Wesley headshot.png">
-                <h4 class="text-white">Wesley Pergament</h4>
-                <p class="text-white">Co-Founder/Director</p>
-              </div>
-            </div>
-          </div>
-          -->
         <div class="col-lg-2"></div>
         <div class="col-lg-8 mx-auto text-center">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -574,8 +558,21 @@
 
       <!-- MEDIUM SPONSORS -->
       <div class="row">
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="https://www.nyit.edu/" target="_blank">
+            <img class="sponsor bg-white" src="img/sponsors/nyit.png">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="https://hackclub.com/bank" target="_blank">
+            <img class="sponsor" src="img/sponsors/HackClub.png">
+          </a>
+        </div>
+        
+      </div>
+      <div class="row mt-4">
         <div class="col-lg-8 mx-auto text-center">
-          <h3>Coming Soon!</h3>
+          <h3>More Coming Soon!</h3>
           <br>
           <p>If you're interested in partnering with us, send our sponsorship team an email at <a href="mailto: team@teenhacksli.com" target="_blank">team@teenhacksli.com</a>. An outline of sponsorship prospects and benefits will be posted here shortly.
             </p>
@@ -589,37 +586,37 @@
   <section id="news" style="padding-bottom: 80px" class="bg-lighter">
     <div class="container text-center">
       <h2>In the News</h2>
-      <hr class="my-4">
+      <hr class="blueHR my-4">
       <div class="row">
-        <div class="col-lg-4 mx-auto text-center">
-          <a href="http://syossetjerichotribune.com/2018/10/03/twenty-four-hours-to-innovation/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/tribune.jpg"></img>
-            </a>
-        </div>
-        <div class="col-lg-4 mx-auto text-center">
-          <a href="https://www.syossetadvance.com/articles/24-hour-hackathon-at-syosset-school/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/syossetAdvance.png"></img>
-            </a>
-        </div>
-        <div class="col-lg-4 mx-auto text-center">
-          <a href="http://kwhs.wharton.upenn.edu/2018/08/a-hackathon-how-to/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/wharton.png"></img>
-            </a>
-        </div>
-        <div class="col-lg-4 mx-auto text-center">
-          <a href="http://longisland.news12.com/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/news12.png"></img>
-            </a>
-        </div>
-        <div class="col-lg-4 mx-auto text-center">
-          <a href="https://news.wealth365.com/twenty-four-hours-to-innovation/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/wealth365.png"></img>
-            </a>
-        </div>
-        <div class="col-lg-4 mx-auto text-center">
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
           <a href="https://theislandnow.com/community-news/teenhacks-li-bringing-the-tech-revolution-to-long-island-youth-through-successful-first-event/" target="_blank">
-            <img class="newsPic" src="fall2018/img/news/islandnow.jpg"></img>
-            </a>
+            <img class="sponsor" src="img/news/islandnow.jpg">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="http://syossetjerichotribune.com/2018/10/03/twenty-four-hours-to-innovation/" target="_blank">
+            <img class="sponsor" src="img/news/tribune.jpg">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="https://www.syossetadvance.com/articles/24-hour-hackathon-at-syosset-school/" target="_blank">
+            <img class="sponsor" src="img/news/syossetAdvance.png">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="http://kwhs.wharton.upenn.edu/2018/08/a-hackathon-how-to/" target="_blank">
+            <img class="sponsor" src="img/news/wharton.png">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="http://longisland.news12.com/" target="_blank">
+            <img class="sponsor" src="img/news/news12.png">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 m-6 m-auto text-center">
+          <a href="https://news.wealth365.com/twenty-four-hours-to-innovation/" target="_blank">
+            <img class="sponsor" src="img/news/wealth365.png">
+          </a>
         </div>
       </div>
     </div>
