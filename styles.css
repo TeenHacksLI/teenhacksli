@@ -21,16 +21,26 @@ body:before {
   background-size: cover;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #header{
-  background-color:#193f49;
+ 
+  color: white;
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+
+#bg-img{
+	 background-color:#193f49;
   background-image: url("img/eventPics/Scenery/sunset.jpg");
   background-size: cover;
   background-position: center center;
   /* padding-top: 10rem;
    padding-bottom: calc(10rem - 56px); */
-  color: white;
-  height: 100vh;
-  background-attachment:fixed;
+	filter: blur(20px);
 }
 
 #header h1 {
@@ -84,12 +94,8 @@ body:before {
 }
 }
 
-.bg-navy {
-	background-color: #45516B !important;
-}
-
-.bg-gray {
-	background-color:#dedfe0 !important;
+.bg-lightBlue{
+	background-color:#AADAFF !important;
 }
 
 .bg-lighter {
@@ -351,3 +357,4 @@ a:hover, a:active {
 
 }
 /*------------FOOTER STUFF ENDS-------------------*/
+
