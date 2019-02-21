@@ -144,26 +144,6 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem #70bfe5 !important;
 }
 
-.parallax {
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-#mc_embed_signup{
-  clear:left; 
-  font:14px Helvetica,Arial,sans-serif; 
-  width:100%;
-  
-}
-
 .headshot {
   width: 150px;
   height: 150px;
@@ -172,41 +152,6 @@ header.masthead p {
   
 }
 
-.sponsor {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 10px;
-}
-
-.bigSpon{
-  height: 175px;
-}
-
-.medSpon{
-  height: 100px;
-}
-
-.cardB{
-  background-color: rgba(27, 32, 42, .75);
-  border-radius: 25px;
-}
-
-.page-footer{
-    position: static;
-    background-color: #3e99b7;
-    color: white;
-    text-align: center;
-    font-family: 'Open Sans';
-    bottom: 0;
-}
-
-.page-footer a{
-  color: white;
-}
-
-#application {
-  text-align: center;
-}
 
 dt,
 dd{
@@ -222,19 +167,6 @@ dd{
   padding-left: 10px;
 }
 
-.title{
-  margin-top: -25px;
-  margin-bottom: -15px;
-}
-
-.newsPic {
-  max-height: 120px;
-  padding: 10px;
-}
-
-.res {
-  margin-bottom: 20px;
-}
 
 
 

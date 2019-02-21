@@ -10,6 +10,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico" type="text/css" />
 
   <!-- CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">-->
   <link rel="stylesheet" href="styles-temp.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -75,7 +76,7 @@
             <a class="nav-link js-scroll-trigger" href="#FAQ" style="color:#484e54 !important;">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#application" style="color:#484e54 !important;">Apply</a>
+            <a class="nav-link js-scroll-trigger" href="#apply" style="color:#484e54 !important;">Apply</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#logistics" style="color:#484e54 !important;">Logistics</a>
@@ -105,7 +106,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto text-center mb-3">
           <br>
-          <img src="img/bernie1Flying.png" style="height:16rem;" class="faa-float animateds">
+          <img src="img/bernie1Flying.png" class="faa-float animated" id="bernie">
           <br>
           <br>
           <br>
@@ -113,10 +114,10 @@
           <h1 style="font-family: 'Raleway'" class="title">
             <strong>TeenHacks LI</strong>
           </h1>
-          <hr>
+          <hr class="lightHR">
           <h2>
             May 25-26th
-            <small>1pm-1pm</small>
+            <small>1pm-3:30pm</small>
           </h2>
           <h4>New York Institute of Technology</h4>
         </div>
@@ -125,6 +126,14 @@
               <button type="button" class="btn btn-info btn-lg mx-auto" style="word-spacing:5px;"><b>APPLY TODAY!</b></button>
             </div>
             </div>-->
+    </div>
+    <div class="cloud-wrapper">
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons cloud-control .d-none" style="z-index:-1 !important"></div>
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons  cloud-control2 .d-none" style="z-index:-1 !important"></div>
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons  cloud-control3 .d-none" style="z-index:-1 !important"></div>
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons  cloud-control4 .d-none" style="z-index:-1 !important"></div>
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons  cloud-control5 .d-none" style="z-index:-1 !important"></div>
+      <div class="fa fa-20x fa-cloud mb-3 sr-icons  cloud-control6 .d-none" style="z-index:-1 !important"></div>
     </div>
   </section>
 
@@ -169,18 +178,18 @@
       </div>
     </section>-->
 
-  <section class="bg-primary" id="about">
+  <section class="bg-primary" id="about" style="z-index:-2 !important;">
     <div class="container">
       <div class="row mb-3">
         <div class="col-lg-10 mx-auto text-center">
           <h2 class="section-heading text-white">About Us</h2>
           <hr class="lightHR my-4">
-          <p class="text-faded mb-4">Calling all programmers, designers, makers and leaders! TeenHacks LI is Long Island’s premier 24-hour high school hackathon, by students, for students. Take part in group collaboration, interesting workshops, sweet prizes, and more. Get ready
+          <p class="text-faded mb-3">Calling all programmers, designers, makers and leaders! TeenHacks LI is Long Island’s premier 24-hour high school hackathon, by students, for students. Take part in group collaboration, interesting workshops, sweet prizes, and more. Get ready
             to meet new people and have an amazing time. Join us as we build the future!</p>
           <p class="text-faded mb-4">Founded by Jeffrey Yu and Wesley Pergament, we bring together the brightest students across the tri-state area to engage in “collaborative coding.” We hope to build a hacker community here on Long Island, with an emphasis placed on innovation
             and entrepreneurship.</p>
         </div>
-        <div class="col-lg-8 text-center mx-auto">
+        <div class="col-lg-8 text-center mx-auto mb-3">
           <a href="mailto:team@teenhacksli.com" target="_blank"><i class="fa fa-3x fa-envelope text-white faa-wrench animated-hover"></i></a>
           <a href="https://www.facebook.com/teenhacksli/" target="_blank"><i class="fab fa-3x fa-facebook text-white faa-wrench animated-hover"></i></a>
           <a href="https://www.instagram.com/teenhacksli/" target="_blank"><i class="fab fa-3x fa-instagram text-white faa-wrench animated-hover"></i></a>
@@ -253,13 +262,13 @@
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
         <div class="col-lg-2"></div>
@@ -342,7 +351,7 @@
     </div>
   </section>
 
-  <!--<section class="bg-dark text-white" id="application">
+  <!--<section class="bg-dark text-white" id="apply">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
@@ -358,8 +367,8 @@
       </div>
     </section>-->
 
-  <section class="bg-dark text-white" id="application">
-    <div class="container">
+  <section class="bg-dark text-white" id="apply">
+    <div class="container text-center">
       <h2 class="section-heading">Applying</h2>
       <hr class="lightHR">
       <div class="row">
@@ -370,20 +379,51 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
-          <button type="button" class="btn btn-info btn-block" disabled><b>APPLY AS A PARTICIPANT</b></button>
+        <div class="col mb-3">
+          <button type="button" class="btn btn-info btn-block dropdown-toggle" data-toggle="collapse" href="#participantinfo" role="button" aria-expanded="false" aria-controls="participantinfo"><b>APPLY AS A PARTICIPANT</b></button>
+          <div class="collapse" id="participantinfo">
+            <div class="card card-body text-dark">
+              <p>
+                High school students, you’ve found the right place! We’re excited you want to come to TeenHacks LI, but due to space limitations, we can only accept 250 participants. Fill out this short application form, but put some thought into the short response questions. Priority applications will be due on 3/31. 
+                <br><br>
+                <b>Application Questions</b>: <br>1. Because we only have 250 slots for this hackathon, list 5 reason why you would like to attend. <br> 2. What inspires you to like coding or anything related to STEM?
+              </p>
+              <a href="x" target="_blank"><button type="button" class="btn btn-outline-info" disabled>Applications open soon!</button></a>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <button type="button" class="btn btn-warning btn-block" style="color:white !important;" disabled><b>APPLY AS A MENTOR</b></button>
+        <div class="col mb-3">
+          <button type="button" class="btn btn-warning btn-block dropdown-toggle" data-toggle="collapse" href="#mentorinfo" role="button" aria-expanded="false" aria-controls="mentorinfo"><b>APPLY AS A MENTOR</b></button>
+          <div class="collapse" id="mentorinfo">
+            <div class="card card-body text-dark">
+              <p>
+                We welcome undergrads, gradates, and tech professionals to attend as mentors! We’re looking for engineers, programmers, designers, and more to help guide our participants through their projects. A wide base knowledge is appreciated, but not required. Food will be provided during the event and you can stay for as long as you want. However, we do have limited space so please fill out this short application form.
+              </p>
+              <a href="x" target="_blank"><button type="button" class="btn btn-outline-warning" disabled>Applications open soon!</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+          <button type="button" class="btn btn-secondary btn-block dropdown-toggle" data-toggle="collapse" href="#ambassadorinfo" role="button" aria-expanded="false" aria-controls="ambassadorinfo"><b>APPLY FOR CAMPUS AMBASSADOR</b></button>
+          <div class="collapse" id="ambassadorinfo">
+            <div class="card card-body text-dark">
+              <p>
+                High school students looking to get more involved with TeenHacks LI? Apply to join our Campus Ambassador program! As a campus ambassador, you will become a spokesperson for TeenHacks LI at your school and community. You help raise brand awareness, solicit applicants, and encourage computer science education. In return, you will receive special swag at the event and access to exclusive activities.
+              </p>
+              <a href="x" target="_blank"><button type="button" class="btn btn-outline-secondary" disabled>Applications open soon!</button></a>
+            </div>
+          </div>
         </div>
-        <div class="w-100">
-          <br>
-        </div>
-        <div class="col">
-          <button type="button" class="btn btn-danger btn-block" onclick="window.open('mailto:team@teenhacksli.com','_self');"><b>SPONSOR TEENHACKS LI</b></button>
-        </div>
-        <div class="col">
-          <button type="button" class="btn btn-secondary btn-block" onclick="window.open('https://goo.gl/forms/LItBe0bMM3e12Hg13','_blank');"><b>CONTRIBUTE ANOTHER WAY</b></button>
+        <div class="col mb-3">
+          <button type="button" class="btn btn-danger btn-block dropdown-toggle" data-toggle="collapse" href="#sponsorinfo" role="button" aria-expanded="false" aria-controls="sponsorinfo"><b>SPONSOR TEENHACKS LI</b></button>
+          <div class="collapse" id="sponsorinfo">
+            <div class="card card-body text-dark">
+              <p>
+                Looking to sponsor TeenHacks LI? We are a 501c3 non-profit under the fiscal sponsorship of The Hack Foundation (EIN: 81-2908499). We are always looking for partners and sponsors to work with. Shoot us an email at <a href="mailto:team@teenhacksli.com" target="_blank">team@teenhacksli.com</a> and we’ll love to see how we could work together. 
+              </p>
+              <a href="sponsorshipFinal.pdf" target="_blank"><button type="button" class="btn btn-outline-danger">View sponsorship tiers!</button></a>
+            </div>
+          </div>
         </div>
       </div>
       <br>
@@ -415,7 +455,7 @@
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -444,29 +484,26 @@
           </p>
           <br>
           <h4><strong>Time</strong>: May 25-26, 2019<br>1pm to 1pm</h4>
-          <br>
-          <p>More info coming soon!</p>
         </div>
-        <!--
           <div class="col-lg-6 mx-auto pt-4 pl-5 sch border-darkToPrimary">
               <h4>Saturday, May 25th</h4>
               <dl class="row">
-              <dt class="col-sm-3">2:30 pm</dt>
+              <dt class="col-sm-3">12:00 pm</dt>
               <dd class="col-sm-9">Doors Opens</dd>
-              <dt class="col-sm-3">3:00 pm</dt>
-              <dd class="col-sm-9">Kickoff Ceremony</dd>
+              <dt class="col-sm-3">1:00 pm</dt>
+              <dd class="col-sm-9">Opening Ceremony</dd>
               <dt class="col-sm-3">3:30 pm</dt>
-              <dd class="col-sm-9">Team Building and Soft Skills Activity</dd>
-              <dt class="col-sm-3">4:00 pm</dt>
-              <dd class="col-sm-9">Tibco Introductory Hands-On Workshop (with developer focused products Flogo & Spotfire: Brainstorm ideas for the "TIBCO Challenge")</dd>
-              <dt class="col-sm-3">5:30 pm</dt>
-              <dd class="col-sm-9">LI Tech in partnership with “My Blind Spot” Workshop</dd>
-              <dt class="col-sm-3">7:00 pm</dt>
+              <dd class="col-sm-9">Team Building Activity</dd>
+              <dt class="col-sm-3">2:00 pm</dt>
+              <dd class="col-sm-9">Workshop (TBA)</dd>
+              <dt class="col-sm-3">5:00 pm</dt>
+              <dd class="col-sm-9">Activity (TBA)</dd>
+              <dt class="col-sm-3">6:00 pm</dt>
               <dd class="col-sm-9">Dinner</dd>
-              <dt class="col-sm-3">8:00 pm</dt>
-              <dd class="col-sm-9">MLH Localhost: Alexa</dd>
-              <dt class="col-sm-3">9:30 pm</dt>
-              <dd class="col-sm-9">Q+A with Legislature Josh Lafazan</dd>
+              <dt class="col-sm-3">7:00 pm</dt>
+              <dd class="col-sm-9">Workshop (TBA)</dd>
+              <dt class="col-sm-3">9:00 pm</dt>
+              <dd class="col-sm-9">Activity (TBA)</dd>
               </dd>
               </dl>
           </div>
@@ -474,30 +511,29 @@
             <h4>Sunday, May 26th</h4>
             <dl class="row">
             <dt class="col-sm-3">12:00 am</dt>
-            <dd class="col-sm-9">Mid-night Snack</dd>
-            <dt class="col-sm-3">1:00 am</dt>
-            <dd class="col-sm-9">Foosball Tournament</dd>
+            <dd class="col-sm-9">Midnight Snack</dd>
             <dt class="col-sm-3">2:00 am</dt>
             <dd class="col-sm-9">Quiet Hours Begin</dd>
             <dt class="col-sm-3">6:00 am</dt>
             <dd class="col-sm-9">Quiet Hours End</dd>
-            <dt class="col-sm-3">7:00 am</dt>
+            <dt class="col-sm-3">8:00 am</dt>
             <dd class="col-sm-9">Breakfast</dd>
-            <dt class="col-sm-3">11:59 am</dt>
-            <dd class="col-sm-9">Project Submissions Due</dd>
+            <dt class="col-sm-3">9:00 am</dt>
+            <dd class="col-sm-9">Activity (TBA)</dd>
             <dt class="col-sm-3">12:00 pm</dt>
             <dd class="col-sm-9">Lunch</dd>
             <dt class="col-sm-3">1:00 pm</dt>
+            <dd class="col-sm-9">Project Submissions Due</dd>
+            <dt class="col-sm-3">1:30 pm</dt>
             <dd class="col-sm-9">Judging Begins</dd>
-            <dt class="col-sm-3">2:30 pm</dt>
-            <dd class="col-sm-9">Awards + Closing Ceremony</dd>
             <dt class="col-sm-3">3:00 pm</dt>
+            <dd class="col-sm-9">Awards Ceremony</dd>
+            <dt class="col-sm-3">3:30 pm</dt>
             <dd class="col-sm-9">The End :(</dd>
             </dd>
             </dl>
             <p>*subject to change</p>
           </div>
-          -->
       </div>
     </div>
   </section>
@@ -633,7 +669,7 @@
       <p class="footer-links">
         <a href="#about" style="color:white !important">About</a> ·
         <a href="#FAQ" style="color:white !important">FAQ</a> ·
-        <a href="#application" style="color:white !important">Apply</a> ·
+        <a href="#apply" style="color:white !important">Apply</a> ·
         <a href="#logistics" style="color:white !important">Logistics</a> ·
         <!--<a href="#speakers" style="color:white !important">Speakers</a>
 					·
@@ -700,8 +736,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="fall2018/js/creative.min.js"></script>
-
   <script src="fall2018/js/canvas.js"></script>
+  <script src="main.js"></script>
 
 </body>
 

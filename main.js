@@ -57,3 +57,14 @@
   });
 
 })(jQuery); // End of use strict
+
+$(window).scroll(function(){
+  var topPosition = $(window).scrollTop();
+  $('.cloud-control').css('left', ''+ topPosition * 14  +'px');
+   $('.cloud-control2').css('left', ''+ (topPosition * 10 + 25) +'px');
+  $('.cloud-control3').css('right', ''+ topPosition * 14  +'px');
+   $('.cloud-control4').css('right', ''+ (topPosition * 10 + 25) +'px');
+   $('.cloud-control5').css('left', ''+ (topPosition * 10 + 200) +'px');
+   $('.cloud-control6').css('right', ''+ (topPosition * 10 + 275) +'px');
+  
+})

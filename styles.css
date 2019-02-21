@@ -19,10 +19,6 @@ hr {
 }
 
 
-p{
-  font-size: 18px;
-}
-
 h1,
 h2,
 h3,
@@ -58,11 +54,17 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url(img/skyback.jpg) no-repeat center center;
+  background: url(img/bg1.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media (max-width:1200px){
+  body:before{
+    background: url(img/eventPics/Scenery/blueCloudBGResized.jpg) no-repeat center top;
+  }
 }
 
 /*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS ----------------*/
@@ -223,6 +225,40 @@ section {
   
 }
 
+#bernie{
+  height: 12rem;
+}
+
+@media (min-width: 350px){
+  #bernie{
+    height:14rem;
+  }
+}
+
+@media (min-width: 450px){
+  #bernie{
+    height:16rem;
+  }
+}
+
+@media (min-width: 700px){
+  #bernie{
+    height:18rem;
+  }
+}
+
+@media (min-width: 1000px){
+  #bernie{
+    height:20rem;
+  }
+}
+
+@media (min-width: 1300px){
+  #bernie{
+    height:22rem;
+  }
+}
+
 #bg-img{
 	background-color:#193f49;
   background-image: url("img/eventPics/Scenery/sunset.jpg");
@@ -262,12 +298,85 @@ section {
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.4),
   -2px -2px 9px rgba(0, 0, 0, 0.4),
   2px -2px 9px rgba(0, 0, 0, 0.4),
-  -2px 2px 9px rgba(0, 0, 0, 0.4);
+  -2px 2px 9px rgba(0, 0, 0, 0.4),
+  1px 1px 3px rgba(1, 116, 165, 0.8),
+  -1px -1px 3px rgba(1, 116, 165, 0.8),
+  1px -1px 3px rgba(1, 116, 165, 0.8),
+  -1px 1px 3px rgba(1, 116, 165, 0.8);
 }
 
 #header h2, #header h3, #header h4{
   font-family: 'Open Sans', sans-serif;
 }
+
+.title{
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+/* Cloud stuff ---------------- */
+.cloud-wrapper {
+  width:100%; 
+  height:910px;
+  text-align:center;
+  color:white;
+  overflow:hidden;
+  
+}
+.cloud-control {
+  display:block;
+  font-size:200px;
+  position: fixed;
+  top:300px;
+  left:0;
+  transition:all 1s;
+}
+.cloud-control2 {
+  display:block;
+  font-size:323.6px;
+  position: fixed;
+  top:356.25px;
+  left:25px;
+  transition:all 1s;
+}
+.cloud-control3 {
+  display:block;
+  font-size:253.6px;
+  position: fixed;
+  top:285px;
+  right:0px;
+  transition:all 1s;
+}
+.cloud-control4 {
+  display:block;
+  font-size:300px;
+  position: fixed;
+  top:345px;
+  right:25px;
+  transition:all 1s;
+}
+.cloud-control5 {
+  display:block;
+  font-size:150px;
+  position: fixed;
+  top:150px;
+  left:200px;
+  transition:all 1s;
+}
+.cloud-control6 {
+  display:block;
+  font-size:120px;
+  position: fixed;
+  top:130px;
+  right:275px;
+  transition:all 1s;
+}
+@media (max-width: 1200px){
+  .cloud-wrapper{
+    opacity: 0;
+  }
+}
+
 /*--------------------HEADER STUFF END -----------------------*/
 
 /*--------------------GENERAL SECTIONS ----------------------*/
@@ -282,16 +391,26 @@ i{
 /* FAQ Section ------------------------*/
 
 /* Application Section -----------------*/
-#application button {
-	font-size: 2vw;
+#apply button #dropdown-toggle{
+	font-size:calc(15px + .2vw);
+
 }
 
+/*
 @media (min-width: 990px){
-	#application button {
+	#apply button {
 	font-size: 1.2vw;
 }
 }
+*/
 
+#apply .card{
+  text-align: left;
+}
+
+#apply .card p{
+  font-size: .93rem;
+}
 
 /* Logistics Section ----------------*/
 
