@@ -222,6 +222,7 @@ section {
   color: white;
   height: 100vh;
   background-attachment: fixed;
+  text-overflow: ellipsis;
   
 }
 
@@ -234,6 +235,7 @@ section {
     height:14rem;
   }
 }
+
 
 @media (min-width: 450px){
   #bernie{
@@ -258,6 +260,7 @@ section {
     height:22rem;
   }
 }
+
 
 #bg-img{
 	background-color:#193f49;
