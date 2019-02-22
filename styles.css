@@ -396,7 +396,6 @@ i{
 /* Application Section -----------------*/
 #apply button #dropdown-toggle{
 	font-size:calc(15px + .2vw);
-
 }
 
 /*
@@ -406,6 +405,10 @@ i{
 }
 }
 */
+
+#apply .btn-block{
+  
+}
 
 #apply .card{
   text-align: left;
