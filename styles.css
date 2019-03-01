@@ -438,6 +438,13 @@ i{
   padding: 10px;
 }
 
+.communitySpon h5{
+  color: white;
+  padding-bottom: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
 /* News Section-------------------------- */
 
 
@@ -531,15 +538,11 @@ i{
 	height: 38px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 42px;
+	line-height: 38px;
 	margin: 10px 15px;
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
 
 .footer-distributed .footer-center p{
 	display: inline-block;
@@ -560,6 +563,9 @@ i{
 	text-decoration: none;;
 }
 
+.footer-distributed .footer-center btn{
+  text-align: center;
+}
 
 /* Footer Right */
 
@@ -597,8 +603,10 @@ i{
 
 	font-size: 25px;
 	color: #3e99b7;
-	text-align: center;
+	text-align: ;
 	line-height: 35px;
+	padding-left: 7px;
+	padding-top: 2px;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
