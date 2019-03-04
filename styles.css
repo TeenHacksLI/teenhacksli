@@ -302,10 +302,10 @@ section {
   -2px -2px 9px rgba(0, 0, 0, 0.4),
   2px -2px 9px rgba(0, 0, 0, 0.4),
   -2px 2px 9px rgba(0, 0, 0, 0.4),
-  1px 1px 3px rgba(1, 116, 165, 0.8),
-  -1px -1px 3px rgba(1, 116, 165, 0.8),
-  1px -1px 3px rgba(1, 116, 165, 0.8),
-  -1px 1px 3px rgba(1, 116, 165, 0.8);
+  0.5px 0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px 0.5px 3px rgba(1, 116, 165, 0.3);
 }
 
 #header h2, #header h3, #header h4{
