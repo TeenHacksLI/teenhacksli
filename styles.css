@@ -378,6 +378,10 @@ section {
   .cloud-wrapper{
     opacity: 0;
   }
+  
+  #header .container{
+    min-height: 100%;
+  }
 }
 
 /*--------------------HEADER STUFF END -----------------------*/
