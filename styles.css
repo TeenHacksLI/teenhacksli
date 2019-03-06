@@ -220,7 +220,7 @@ section {
 /*--------------------HEADER STUFF START -----------------------*/
 #header{
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
   text-overflow: ellipsis;
   
@@ -228,6 +228,7 @@ section {
 
 #bernie{
   height: 12rem;
+  max-height: 45vh;
 }
 
 @media (min-width: 350px){
@@ -312,15 +313,18 @@ section {
   font-family: 'Open Sans', sans-serif;
 }
 
-.title{
+#header .title{
   margin-top: -25px;
   margin-bottom: -15px;
 }
 
+#header .btn-info{
+  background-color: #5fafc9;
+}
 /* Cloud stuff ---------------- */
 .cloud-wrapper {
   width:100%; 
-  height:910px;
+  height:100%;
   text-align:center;
   color:white;
   overflow:hidden;
@@ -377,10 +381,6 @@ section {
 @media (max-width: 1200px){
   .cloud-wrapper{
     opacity: 0;
-  }
-  
-  #header .container{
-    min-height: 100%;
   }
 }
 
