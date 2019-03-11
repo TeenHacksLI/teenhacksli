@@ -63,7 +63,9 @@ body:before {
 
 @media (max-width:1200px){
   body:before{
-    background: url(img/eventPics/Scenery/blueCloudBGResized.jpg) no-repeat center top;
+    background: url(img/eventPics/Scenery/screen.jpg);
+    background-size: cover;
+    background-position: center center;
   }
 }
 
