@@ -114,6 +114,22 @@ hr.blueHR {
 hr.lightHR {
   border-color: #fff;
 }
+
+hr.diamondHR {
+  border-color: #77a6d8;
+}
+
+hr.goldHR {
+  border-color: #d8b14b;
+}
+
+hr.silverHR {
+  border-color: #96a0aa;
+}
+
+hr.bronzeHR {
+  border-color: #ad7d62;
+}
 /*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS END----------------*/
 
 /*------------ SECTION DESIGN AND STUFF START ----------------*/
@@ -312,6 +328,10 @@ section {
   -0.5px 0.5px 3px rgba(1, 116, 165, 0.3);
 }
 
+#apply {
+  text-shadow: none !important;
+}
+
 #header h2, #header h3, #header h4{
   font-family: 'Open Sans', sans-serif;
 }
@@ -452,6 +472,62 @@ i{
   border-bottom-width: 1px;
 }
 
+#sponsorsList{
+  border-radius:40px;
+}
+
+.sponTag {
+  font-style: italic;
+  font-family: 'Raleway';
+}
+/*
+
+I don't know if y'all liked the colors? But the logos looked weird on
+the black background so I made a separate white container for them 
+and so the sponsor tag colors would also need to be changed. Feel 
+free to change back if you think that's better. 
+
+#diamondSpon {
+  color: #B0D7FF;
+  border-bottom-color: #B0D7FF;
+  border-bottom-style: solid;
+}
+#goldSpon {
+  color: #FFE9B0;
+  border-bottom-color: #FFE9B0;
+  border-bottom-style: solid;
+}
+#silverSpon {
+  color: #C5D4E2;
+  border-bottom-color: #C5D4E2;
+  border-bottom-style: solid;
+}
+#bronzeSpon {
+  color: #C89C84;
+  border-bottom-color: #C89C84;
+  border-bottom-style: solid;
+}*/
+
+#diamondSpon {
+  color: #77a6d8;
+  border-bottom-color: #77a6d8;
+  /*border-bottom-style: solid;*/
+}
+#goldSpon {
+  color: #d8b14b;
+  border-bottom-color: #d8b14b;
+  /*border-bottom-style: solid;*/
+}
+#silverSpon {
+  color: #96a0aa;
+  border-bottom-color: #96a0aa;
+  /*border-bottom-style: solid;*/
+}
+#bronzeSpon {
+  color: #ad7d62;
+  border-bottom-color: #ad7d62;
+  /*border-bottom-style: solid;*/
+}
 /* News Section-------------------------- */
 
 
