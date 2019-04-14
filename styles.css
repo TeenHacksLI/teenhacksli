@@ -690,6 +690,12 @@ free to change back if you think that's better.
 	 margin-left: auto;
 	 margin-right: auto;
 }
+
+@media screen and (max-width: 450px){
+  .card__expander .img-thumbnail{
+    display:none;
+  }
+}
  
 
 
