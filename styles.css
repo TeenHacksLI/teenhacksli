@@ -4,9 +4,9 @@ html {
   height: 100%;
 }
 
-*{
+/**{
   box-sizing:border-box;
-}
+}*/
 
 html {
   scroll-behavior: smooth;
@@ -546,7 +546,7 @@ free to change back if you think that's better.
 	 display: flex;
 	 flex-flow: row wrap;
 }
- .card {
+ .cardt {
 	 margin: 15px;
 	 width: calc((100% / 3) - 30px);
 	 transition: all 0.2s ease-in-out;
@@ -561,7 +561,7 @@ free to change back if you think that's better.
 		 width: 100%;
 	}
 }
- .card:hover .card__inner {
+ .cardt:hover .card__inner {
 	 background-color: #37abd2;
 	 transform: scale(1.05);
 }

@@ -71,12 +71,12 @@ $(window).scroll(function(){
 })
 
 /*team cards js*/
-var $cell = $('.card');
+var $cell = $('.cardt');
 
 //open and close card when clicked on card
 $cell.find('.js-expander').click(function() {
 
-  var $thisCell = $(this).closest('.card');
+  var $thisCell = $(this).closest('.cardt');
 
   if ($thisCell.hasClass('is-collapsed')) {
     //add z-index
@@ -100,7 +100,7 @@ $cell.find('.js-expander').click(function() {
 //close card when click on cross
 $cell.find('.js-collapser').click(function() {
 
-  var $thisCell = $(this).closest('.card');
+  var $thisCell = $(this).closest('.cardt');
 
   $thisCell.removeClass('is-expanded').addClass('is-collapsed');
   $cell.not($thisCell).removeClass('is-inactive');
