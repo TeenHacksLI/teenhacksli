@@ -134,6 +134,12 @@ hr.silverHR {
 hr.bronzeHR {
   border-color: #ad7d62;
 }
+
+hr.communityHR {
+  border-color: #141414;
+}
+
+
 /*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS END----------------*/
 
 /*------------ SECTION DESIGN AND STUFF START ----------------*/
@@ -530,6 +536,11 @@ free to change back if you think that's better.
 #bronzeSpon {
   color: #ad7d62;
   border-bottom-color: #ad7d62;
+  /*border-bottom-style: solid;*/
+}
+#communitySpon {
+  color: #141414;
+  border-bottom-color: #141414;
   /*border-bottom-style: solid;*/
 }
 
