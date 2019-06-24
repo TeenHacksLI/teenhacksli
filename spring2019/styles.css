@@ -1,0 +1,903 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/**{
+  box-sizing:border-box;
+}*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  max-width: 50px !important;
+  border-width: 3px !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+p{
+  font-size: 18px;
+}
+
+selection {
+  color: #fff;
+  background: #45516B;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+/*for mobile*/
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(img/bg1.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width:1200px){
+  body:before{
+    background: url(img/eventPics/Scenery/screen.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+/*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS ----------------*/
+a:link, a:visited {
+	color: #5FAFC9;
+	transition: all 0.2s;
+}
+
+a:hover, a:active {
+	color: #F6D300 !important;
+}
+
+.bg-primary{
+  background-color: #5FAFC9 !important;
+}
+
+.bg-dark {
+  background-color: #45516B !important;
+}
+
+.bg-light{
+  background-color: #f2f2f2 !important;
+}
+
+.bg-lightBlue{
+	background-color:#AADAFF !important;
+}
+
+.bg-lighter {
+	background-color:#FFF !important;
+}
+
+section.bg-light{
+  background-color: #f2f2f2 !important;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+hr.blueHR {
+  border-color: #5FAFC9 !important;
+}
+
+hr.lightHR {
+  border-color: #fff;
+}
+
+hr.diamondHR {
+  border-color: #77a6d8;
+}
+
+hr.goldHR {
+  border-color: #d8b14b;
+}
+
+hr.silverHR {
+  border-color: #96a0aa;
+}
+
+hr.bronzeHR {
+  border-color: #ad7d62;
+}
+
+hr.communityHR {
+  border-color: #141414;
+}
+
+
+/*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS END----------------*/
+
+/*------------ SECTION DESIGN AND STUFF START ----------------*/
+section {
+  padding: 4rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+/*------------ SECTION DESIGN AND STUFF END ----------------*/
+
+/*-------------NAV BAR STUFF------------------------------*/
+#navlogo {
+  width: 30px;
+  margin-top: -5px;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: transparent;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  color: #5FAFC9;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #5FAFC9;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #45516B;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #9EEDDE;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #5FAFC9 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+/*@media (min-width: 992px) {*/
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #5FAFC9;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #5FAFC9;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #45516B;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #5FAFC9;
+  }
+
+/*---------------------End of Navigation---------------------*/
+  
+
+/*--------------------HEADER STUFF START -----------------------*/
+#header{
+  color: white;
+  min-height: 100vh;
+  background-attachment: fixed;
+  text-overflow: ellipsis;
+  
+}
+
+#bernie{
+  height: 12rem;
+  max-height: 45vh;
+}
+
+@media (min-width: 350px){
+  #bernie{
+    height:14rem;
+  }
+}
+
+
+@media (min-width: 450px){
+  #bernie{
+    height:16rem;
+  }
+}
+
+@media (min-width: 700px){
+  #bernie{
+    height:18rem;
+  }
+}
+
+@media (min-width: 1000px){
+  #bernie{
+    height:20rem;
+  }
+}
+
+@media (min-width: 1300px){
+  #bernie{
+    height:22rem;
+  }
+}
+
+
+#bg-img{
+	background-color:#193f49;
+  background-image: url("img/eventPics/Scenery/sunset.jpg");
+  background-size: cover;
+  background-position: center center;
+  /* padding-top: 10rem;
+   padding-bottom: calc(10rem - 56px); */
+}
+
+#header h1 {
+  font-size: 10vw;
+}
+
+#header button {
+	font-size: 4.5vw;
+}
+
+@media (min-width: 1200px) {
+  #header h1 {
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 900px){
+	#header button {
+	font-size: 2.5vw;
+}
+}
+
+#header .container{
+  /*background-color: rgba(27, 32, 42, .75);*/
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.4),
+  -2px -2px 9px rgba(0, 0, 0, 0.4),
+  2px -2px 9px rgba(0, 0, 0, 0.4),
+  -2px 2px 9px rgba(0, 0, 0, 0.4),
+  0.5px 0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px 0.5px 3px rgba(1, 116, 165, 0.3);
+}
+
+#apply {
+  text-shadow: none !important;
+}
+
+#header h2, #header h3, #header h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header .title{
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+#header .btn-info{
+  background-color: #5fafc9;
+}
+/* Cloud stuff ---------------- */
+.cloud-wrapper {
+  width:100%; 
+  height:100%;
+  text-align:center;
+  color:white;
+  overflow:hidden;
+  
+}
+.cloud-control {
+  display:block;
+  font-size:200px;
+  position: fixed;
+  top:300px;
+  left:0;
+  transition:all 1s;
+}
+.cloud-control2 {
+  display:block;
+  font-size:323.6px;
+  position: fixed;
+  top:356.25px;
+  left:25px;
+  transition:all 1s;
+}
+.cloud-control3 {
+  display:block;
+  font-size:253.6px;
+  position: fixed;
+  top:285px;
+  right:0px;
+  transition:all 1s;
+}
+.cloud-control4 {
+  display:block;
+  font-size:300px;
+  position: fixed;
+  top:345px;
+  right:25px;
+  transition:all 1s;
+}
+.cloud-control5 {
+  display:block;
+  font-size:150px;
+  position: fixed;
+  top:150px;
+  left:200px;
+  transition:all 1s;
+}
+.cloud-control6 {
+  display:block;
+  font-size:120px;
+  position: fixed;
+  top:130px;
+  right:275px;
+  transition:all 1s;
+}
+@media (max-width: 1200px){
+  .cloud-wrapper{
+    opacity: 0;
+  }
+}
+
+/*--------------------HEADER STUFF END -----------------------*/
+
+/*--------------------GENERAL SECTIONS ----------------------*/
+/* About Section ------------*/
+#about{
+	background-color: #5fafc9 !important;
+}
+
+i{
+  width: 19%;
+}
+/* FAQ Section ------------------------*/
+
+/* Application Section -----------------*/
+#apply button #dropdown-toggle{
+	font-size:calc(15px + .2vw);
+}
+
+/*
+@media (min-width: 990px){
+	#apply button {
+	font-size: 1.2vw;
+}
+}
+*/
+
+#apply .btn-block{
+  
+}
+
+#apply .card{
+  text-align: left;
+}
+
+#apply .card p{
+  font-size: .93rem;
+}
+
+/* Logistics Section ----------------*/
+
+.border-darkToPrimary{
+	border-color:#f2f2f2;
+	transition: 0.3s;
+}
+
+.border-darkToPrimary:hover{
+	border-color:#37ABD2;
+	color:#37ABD2;
+}
+
+/* Sponsors Section-------------------- */
+
+.sponsor {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+}
+
+.communitySpon h5{
+  color: white;
+  padding-bottom: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#sponsorsList{
+  border-radius:40px;
+}
+
+.sponTag {
+  font-style: italic;
+  font-family: 'Raleway';
+}
+/*
+
+I don't know if y'all liked the colors? But the logos looked weird on
+the black background so I made a separate white container for them 
+and so the sponsor tag colors would also need to be changed. Feel 
+free to change back if you think that's better. 
+
+#diamondSpon {
+  color: #B0D7FF;
+  border-bottom-color: #B0D7FF;
+  border-bottom-style: solid;
+}
+#goldSpon {
+  color: #FFE9B0;
+  border-bottom-color: #FFE9B0;
+  border-bottom-style: solid;
+}
+#silverSpon {
+  color: #C5D4E2;
+  border-bottom-color: #C5D4E2;
+  border-bottom-style: solid;
+}
+#bronzeSpon {
+  color: #C89C84;
+  border-bottom-color: #C89C84;
+  border-bottom-style: solid;
+}*/
+
+#diamondSpon {
+  color: #77a6d8;
+  border-bottom-color: #77a6d8;
+  /*border-bottom-style: solid;*/
+}
+#goldSpon {
+  color: #d8b14b;
+  border-bottom-color: #d8b14b;
+  /*border-bottom-style: solid;*/
+}
+#silverSpon {
+  color: #96a0aa;
+  border-bottom-color: #96a0aa;
+  /*border-bottom-style: solid;*/
+}
+#bronzeSpon {
+  color: #ad7d62;
+  border-bottom-color: #ad7d62;
+  /*border-bottom-style: solid;*/
+}
+#communitySpon {
+  color: #141414;
+  border-bottom-color: #141414;
+  /*border-bottom-style: solid;*/
+}
+
+/* Team Section---------------------------*/
+
+.cardsWrapper {
+	 /*margin: 5em auto;*/
+	 max-width: 1000px;
+	 background-color: #fff;
+	 box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
+}
+ .cards {
+	 padding: 15px;
+	 display: flex;
+	 flex-flow: row wrap;
+}
+ .cardt {
+	 margin: 15px;
+	 width: calc((100% / 3) - 30px);
+	 transition: all 0.2s ease-in-out;
+}
+ @media screen and (max-width: 991px) {
+	 .card {
+		 width: calc((100% / 2) - 30px);
+	}
+}
+ @media screen and (max-width: 767px) {
+	 .card {
+		 width: 100%;
+	}
+}
+ .cardt:hover .card__inner {
+	 background-color: #37abd2;
+	 transform: scale(1.05);
+}
+ .card__inner {
+	 width: 100%;
+	 padding: 30px;
+	 position: relative;
+	 cursor: pointer;
+	 background-color: #949fb0;
+	 background-position: center;
+	 color: #eceef1;
+	 font-size: 1.5em;
+	 text-transform: uppercase;
+	 text-align: center;
+	 transition: all 0.2s ease-in-out;
+}
+ .card__inner:after {
+	 transition: all 0.3s ease-in-out;
+}
+ .card__inner .fa {
+	 width: 100%;
+	 margin-top: 0.25em;
+}
+ .card__expander {
+	 transition: all 0.2s ease-in-out;
+	 background-color: #333a45;
+	 width: 100%;
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: #eceef1;
+	 font-size: 1.5em;
+}
+ .card__expander .fa {
+	 font-size: 0.75em;
+	 position: absolute;
+	 top: 10px;
+	 right: 10px;
+	 cursor: pointer;
+}
+ .card__expander .fa:hover {
+	 opacity: 0.9;
+}
+ .card.is-collapsed .card__inner:after {
+	 content: "";
+	 opacity: 0;
+}
+ .card.is-collapsed .card__expander {
+	 max-height: 0;
+	 min-height: 0;
+	 overflow: hidden !important;
+	 margin-top: 0;
+	 opacity: 0 !important;
+}
+ .card.is-expanded .card__inner {
+	 background-color: #ef5f2d;
+}
+ .card.is-expanded .card__inner:after {
+	 content: "";
+	 opacity: 1;
+	 display: block;
+	 height: 0;
+	 width: 0;
+	 position: absolute;
+	 bottom: -30px;
+	 left: calc(50% - 15px);
+	 border-left: 15px solid transparent;
+	 border-right: 15px solid transparent;
+	 border-bottom: 15px solid #333a45;
+}
+ .card.is-expanded .card__inner .fa:before {
+	 content: "\f115";
+}
+ .card.is-expanded .card__expander {
+	 max-height: 1000px;
+	 min-height: 200px;
+	 overflow: visible !important;
+	 margin-top: 30px;
+	 opacity: 1;
+	 z-index: 1;
+}
+ .card.is-expanded:hover .card__inner {
+	 transform: scale(1);
+}
+ .card.is-inactive .card__inner {
+	 pointer-events: none;
+	 opacity: 0.5;
+}
+ .card.is-inactive:hover .card__inner {
+	 background-color: #949fb0;
+	 transform: scale(1);
+}
+ @media screen and (min-width: 992px) {
+	 .card:nth-of-type(3n+2) .card__expander {
+		 margin-left: calc(-100% - 30px);
+	}
+	 .card:nth-of-type(3n+3) .card__expander {
+		 margin-left: calc(-200% - 60px);
+	}
+	 .card:nth-of-type(3n+4) {
+		 clear: left;
+	}
+	 .card__expander {
+		 width: calc(300% + 60px);
+	}
+	 .centerCard .card__expander {
+		 margin-left: calc(-100% - 30px) !important;
+	}
+}
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+	 .card:nth-of-type(2n+2) .card__expander {
+		 margin-left: calc(-100% - 30px);
+	}
+	 .card:nth-of-type(2n+3) {
+		 clear: left;
+	}
+	 .card__expander {
+		 width: calc(200% + 30px);
+	}
+	 .centerCard .card__expander {
+		 margin-left: calc(-50% - 15px) !important;
+	}
+}
+ .centerCard {
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+@media screen and (max-width: 450px){
+  .card__expander .img-thumbnail{
+    display:none;
+  }
+}
+ 
+
+
+/* News Section-------------------------- */
+
+
+
+#organizer h2{
+  font-size: 40px;
+}
+
+#organizer p{
+  font-size: 18px;
+}
+
+/*-----------------------END SECTION STUFF-------------------------*/
+
+  
+
+
+
+
+
+
+/*----------------------FOOTER STUFF start---------------------------*/
+.footer-distributed{
+	background-color: #3e99b7;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	/*margin-top: 80px;*/
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Raleway';
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  #ffffff;
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  white;
+	color: #3e99b7;
+	font-size: 22px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  white;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-center btn{
+  text-align: center;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #ffffff;
+	border-radius: 2px;
+
+	font-size: 25px;
+	color: #3e99b7;
+	text-align: ;
+	line-height: 35px;
+	padding-left: 7px;
+	padding-top: 2px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/*------------FOOTER STUFF ENDS-------------------*/
+

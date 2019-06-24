@@ -67,7 +67,7 @@ body:before {
 
 @media (max-width:1200px){
   body:before{
-    background: url(img/eventPics/Scenery/screen.jpg);
+    background: url(img/screen.jpg);
     background-size: cover;
     background-position: center center;
   }
@@ -162,7 +162,7 @@ section {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  
+
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -244,7 +244,7 @@ section {
   }
 
 /*---------------------End of Navigation---------------------*/
-  
+
 
 /*--------------------HEADER STUFF START -----------------------*/
 #header{
@@ -252,7 +252,7 @@ section {
   min-height: 100vh;
   background-attachment: fixed;
   text-overflow: ellipsis;
-  
+
 }
 
 #bernie{
@@ -356,12 +356,12 @@ section {
 }
 /* Cloud stuff ---------------- */
 .cloud-wrapper {
-  width:100%; 
+  width:100%;
   height:100%;
   text-align:center;
   color:white;
   overflow:hidden;
-  
+
 }
 .cloud-control {
   display:block;
@@ -444,7 +444,7 @@ i{
 */
 
 #apply .btn-block{
-  
+
 }
 
 #apply .card{
@@ -493,9 +493,9 @@ i{
 /*
 
 I don't know if y'all liked the colors? But the logos looked weird on
-the black background so I made a separate white container for them 
-and so the sponsor tag colors would also need to be changed. Feel 
-free to change back if you think that's better. 
+the black background so I made a separate white container for them
+and so the sponsor tag colors would also need to be changed. Feel
+free to change back if you think that's better.
 
 #diamondSpon {
   color: #B0D7FF;
@@ -707,7 +707,7 @@ free to change back if you think that's better.
     display:none;
   }
 }
- 
+
 
 
 /* News Section-------------------------- */
@@ -724,7 +724,7 @@ free to change back if you think that's better.
 
 /*-----------------------END SECTION STUFF-------------------------*/
 
-  
+
 
 
 
@@ -857,7 +857,9 @@ free to change back if you think that's better.
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
-
+.footer-icons i{
+  margin-right: 20px;
+}
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
@@ -900,4 +902,3 @@ free to change back if you think that's better.
 
 }
 /*------------FOOTER STUFF ENDS-------------------*/
-
