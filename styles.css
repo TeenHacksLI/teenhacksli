@@ -67,7 +67,7 @@ body:before {
 
 @media (max-width:1200px){
   body:before{
-    background: url(img/eventPics/Scenery/screen.jpg);
+    background: url(img/screen.jpg);
     background-size: cover;
     background-position: center center;
   }
