@@ -328,6 +328,14 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.4),
+  -2px -2px 9px rgba(0, 0, 0, 0.4),
+  2px -2px 9px rgba(0, 0, 0, 0.4),
+  -2px 2px 9px rgba(0, 0, 0, 0.4),
+  0.5px 0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  0.5px -0.5px 3px rgba(1, 116, 165, 0.3),
+  -0.5px 0.5px 3px rgba(1, 116, 165, 0.3);
 }
 
 .container .card {
@@ -388,11 +396,11 @@ section {
 
 #header h2, #header h3, #header h4{
   font-family: 'Open Sans', sans-serif;
-  color: navy;
+  color: white;
 }
 
 #header .title{
-  color: navy;
+  color: white;
   margin-top: -25px;
   margin-bottom: -15px;
 }
