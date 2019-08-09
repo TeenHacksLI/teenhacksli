@@ -330,6 +330,58 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.container .card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  width: 30%;
+  margin: 1%;
+  justify-items: center;
+}
+
+.container .card .title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+.container .card p {
+  text-align: justify;
+  align-items: center;
+  font-size: 12px;
+  padding-top: 0.25em;
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cardholder a {
+  display: inline-block;
+}
+
 #apply {
   text-shadow: none !important;
 }
