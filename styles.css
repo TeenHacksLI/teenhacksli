@@ -388,9 +388,11 @@ section {
 
 #header h2, #header h3, #header h4{
   font-family: 'Open Sans', sans-serif;
+  color: navy;
 }
 
 #header .title{
+  color: navy;
   margin-top: -25px;
   margin-bottom: -15px;
 }
