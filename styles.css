@@ -629,6 +629,9 @@ free to change back if you think that's better.
 }
 
 /* Footer links */
+.footer-links{
+  color: white;
+}
 
 .footer-distributed .footer-links{
 	margin: 20px 0 12px;
