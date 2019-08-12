@@ -338,57 +338,7 @@ section {
   -0.5px 0.5px 3px rgba(1, 116, 165, 0.3);
 }
 
-.container .card {
-  background-color: white;
-  border-radius: 1em;
-  padding: 1em;
-  width: 30%;
-  margin: 1%;
-  justify-items: center;
-}
 
-.container .card .title {
-  font-size: 20px;
-  font-weight: 600;
-  padding-top: 0.5em;
-  text-align: center;
-}
-
-.container .card p {
-  text-align: justify;
-  align-items: center;
-  font-size: 12px;
-  padding-top: 0.25em;
-}
-
-.image-cropper {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.profile-pic {
-  margin: 0 auto;
-  margin-left: -25%;
-  height: 100%;
-  width: auto;
-}
-
-.cardholder {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-}
-
-.cardholder a {
-  display: inline-block;
-}
 
 #apply {
   text-shadow: none !important;
@@ -600,8 +550,86 @@ free to change back if you think that's better.
 
 /* Team Section---------------------------*/
 
+#team .container .card p {
+  text-align: justify;
+  align-items: center;
+  font-size: 12px;
+}
+
+#team .container .card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1%;
+  justify-items: center;
+}
+
+#team .container .card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*
+.container .card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  width: 30%;
+  margin: 1%;
+  justify-items: center;
+}
+
+.container .card .title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+.container .card p {
+  text-align: justify;
+  align-items: center;
+  font-size: 12px;
+  padding-top: 0.25em;
+}
+
+
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cardholder a {
+  display: inline-block;
+}
+*/
+
+/*
 .cardsWrapper {
-	 /*margin: 5em auto;*/
+	 /*margin: 5em auto;
 	 max-width: 1000px;
 	 background-color: #fff;
 	 box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
