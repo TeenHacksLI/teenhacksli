@@ -551,7 +551,7 @@ free to change back if you think that's better.
 /* Team Section---------------------------*/
 
 #team .container .card p {
-  text-align: justify;
+  text-align: left;
   align-items: center;
   font-size: 12px;
 }
