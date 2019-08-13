@@ -256,8 +256,8 @@ section {
 }
 
 #bernie{
-  height: 14rem;
-  max-height: 50vh;
+  height: 18rem;
+  max-height: 56vh;
 }
 
 @media (min-width: 350px){
