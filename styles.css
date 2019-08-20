@@ -446,6 +446,18 @@ i{
 }
 }
 */
+div.mb-3.col-lg-8.mx-auto.text-center a{
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+}
+
+@media (max-width:600px){
+div.mb-3.col-lg-8.mx-auto.text-center a{
+	font-size: 8px !important;
+	padding: 10px;
+	}
+}
 
 #apply .btn-block{
 
