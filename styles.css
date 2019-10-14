@@ -83,6 +83,10 @@ a:hover, a:active {
 	color: #F6D300 !important;
 }
 
+.fa {
+	color: #5fafc9;
+}
+
 .bg-primary{
   background-color: #5FAFC9 !important;
 }
