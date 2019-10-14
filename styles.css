@@ -129,6 +129,8 @@ hr.diamondHR {
 
 hr.goldHR {
   border-color: #d8b14b;
+  width: 70%;
+  height: 70%;
 }
 
 hr.silverHR {
