@@ -129,8 +129,6 @@ hr.diamondHR {
 
 hr.goldHR {
   border-color: #d8b14b;
-  width: 70%;
-  height: 70%;
 }
 
 hr.silverHR {
@@ -302,36 +300,6 @@ section {
   max-height: 45vh;
 }
 
-@media (min-width: 350px){
-  #goldspon{
-    height:14rem;
-  }
-}
-
-
-@media (min-width: 450px){
-  #goldspon{
-    height:16rem;
-  }
-}
-
-@media (min-width: 700px){
-  #goldspon{
-    height:18rem;
-  }
-}
-
-@media (min-width: 1000px){
-  #goldspon{
-    height:20rem;
-  }
-}
-
-@media (min-width: 1300px){
-  #goldspon{
-    height:22rem;
-  }
-}
 
 #communityspon{
 	text-align: center;
@@ -362,7 +330,7 @@ section {
 @media (min-width: 900px){
 	#header button {
 	font-size: 2.5vw;
-}
+  }
 }
 
 #header .container{
@@ -585,8 +553,6 @@ free to change back if you think that's better.
 #goldSpon {
   color: #d8b14b;
   border-bottom-color: #d8b14b;
-  max-width:200px;
-  max-height:200px;
 
   /*border-bottom-style: solid;*/
 }
