@@ -143,6 +143,7 @@ hr.bronzeHR {
 
 hr.communityHR {
   border-color: #141414;
+  
 }
 
 
@@ -296,8 +297,45 @@ section {
     height:22rem;
   }
 }
+#bernie{
+  height: 12rem;
+  max-height: 45vh;
+}
+
+@media (min-width: 350px){
+  #goldspon{
+    height:14rem;
+  }
+}
 
 
+@media (min-width: 450px){
+  #goldspon{
+    height:16rem;
+  }
+}
+
+@media (min-width: 700px){
+  #goldspon{
+    height:18rem;
+  }
+}
+
+@media (min-width: 1000px){
+  #goldspon{
+    height:20rem;
+  }
+}
+
+@media (min-width: 1300px){
+  #goldspon{
+    height:22rem;
+  }
+}
+
+#communityspon{
+	text-align: center;
+}
 #bg-img{
 	background-color:#193f49;
   background-image: url("img/eventPics/Scenery/sunset.jpg");
