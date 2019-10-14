@@ -585,6 +585,9 @@ free to change back if you think that's better.
 #goldSpon {
   color: #d8b14b;
   border-bottom-color: #d8b14b;
+  max-width:200px;
+  max-height:200px;
+
   /*border-bottom-style: solid;*/
 }
 #silverSpon {
@@ -600,6 +603,7 @@ free to change back if you think that's better.
 #communitySpon {
   color: #141414;
   border-bottom-color: #141414;
+  text-align:center;
   /*border-bottom-style: solid;*/
 }
 
