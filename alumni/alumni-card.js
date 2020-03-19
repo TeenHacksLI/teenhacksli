@@ -71,7 +71,7 @@ const buildAlumniCard = alumnus => {
 }
 // Create the HTML elements needed for a card
 
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1LpNyhwHnp4lUYgHpq-qs7lGtYCxmpoohiE-6dafT_jo/edit?usp=sharing';
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1VFZeNSSHlzccWxI_2fsWrHw-hIF11HF9hZ7BazGHJ8s/edit?usp=sharing';
 
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
@@ -82,7 +82,6 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1LpNyhwHnp4lU
   function showInfo(data, tabletop) {
 
     data.forEach(alumnus => buildAlumniCard(alumnus));
-    alert('Successfully processed!')
   }
 
   window.addEventListener('DOMContentLoaded', init)
