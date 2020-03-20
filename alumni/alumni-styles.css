@@ -23,3 +23,7 @@ selection {
 .affiliation {
   font-style: italic;
 }
+
+.alumniData i {
+  color: #4c8ca0;
+}
