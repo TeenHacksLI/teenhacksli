@@ -6,7 +6,7 @@ const buildAlumniCard = alumnus => {
   const col3 = document.createElement("div");
   col3.setAttribute("class", "col-md-3");
   const img = document.createElement("img");
-  img.setAttribute("src", alumnus.FirstName.concat("_",alumnus.LastName,".png"));
+  img.setAttribute("src", "img/".concat(alumnus.FirstName,"_",alumnus.LastName,".png"));
   img.setAttribute("class","card-img w-100 h-100")
   img.setAttribute("alt",alumnus.FirstName)
 
