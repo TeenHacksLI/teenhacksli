@@ -31,3 +31,23 @@
   height: 200px;
   object-fit: cover;
 }
+#members .container .card p {
+  text-align: left;
+  align-items: center;
+  font-size: 12px;
+}
+
+#members .container .card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1%;
+  justify-items: center;
+}
+
+#members .container .card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
