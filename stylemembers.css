@@ -1,0 +1,33 @@
+#schedule {
+  font-size: 14px;
+}
+
+.time, .location, .event {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px hsl(0, 0%, 85%) solid;
+}
+
+.event {
+  padding: 0;
+  /* border-radius: 4px; */
+  font-size: 15px;
+}.event:hover {
+  background-color: hsl(208, 54%, 90%);
+}
+
+.sched-link {
+  display: block;
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-left: 15px;
+  color: black;
+}.sched-link:hover {
+  color: inherit;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
