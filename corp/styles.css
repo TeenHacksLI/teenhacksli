@@ -1,0 +1,13 @@
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+selection {
+  color: #fff;
+  background: #45516B;
+  text-shadow: none;
+}
+
+.bg-blue{
+  background-color: #5FAFC9;
+}
