@@ -1,5 +1,6 @@
-body {
+html, body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;
 }
 
 selection {
@@ -10,4 +11,25 @@ selection {
 
 .bg-blue{
   background-color: #5FAFC9;
+}
+
+#mission img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.parallax {
+  /* The image used */
+ /* background-image: url("img/NYIToverview.jpg"); */
+ background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('img/NYIToverview.jpg');
+
+ /* Set a specific height */
+ height: 100%;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
