@@ -45,6 +45,7 @@ hr{
   max-height: 100%;
   max-width: 100%;
 }
+/* ----------------------------------------------------- */
 
 #team img{
   width: 100%;
@@ -58,4 +59,20 @@ hr{
 
 #team i:hover{
   color: #3c94b1;
+}
+/* ----------------------------------------------------- */
+#alumni .card img{
+  object-fit: cover;
+}
+
+#alumni .bio {
+  font-size: .9rem;
+}
+
+#alumni .affiliation {
+  font-style: italic;
+}
+
+#alumni .alumniData i {
+  color: #4c8ca0;
 }
