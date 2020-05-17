@@ -14,12 +14,10 @@ selection {
   background-color: #5FAFC9;
 }
 
-hr{
-  max-width: 50px !important;
-  border-width: 3px !important;
-}
 
 .lightHR{
+  max-width: 50px !important;
+  border-width: 3px !important;
   border-color: #5FAFC9;
 }
 
