@@ -40,3 +40,22 @@ hr{
   font-size: 5rem;
   color: #5FAFC9;
 }
+
+#demo img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#team img{
+  width: 100%;
+  max-height: 100%;
+  object-fit:cover;
+}
+
+#team i{
+  color: #5FAFC9;
+}
+
+#team i:hover{
+  color: #3c94b1;
+}
