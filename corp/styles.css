@@ -114,3 +114,22 @@ footer a{
 #bernie img{
   height: 150px;
 }
+/* ----------------------------------------------------- */
+#contact h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#contact img{
+  max-width: 100%;
+  max-height: 20rem;
+}
+
+#socials i{
+  color: #5FAFC9;
+  font-size: 5rem;
+}
+
+#socials i:hover{
+  color: #3c94b1;
+}
