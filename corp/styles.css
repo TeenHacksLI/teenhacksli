@@ -41,9 +41,12 @@ footer a{
   background-color: #3c94b1;
 }
 
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #about img {
-    max-width: 100%;
-    max-height: 100%;
     border-radius: 15px;
 }
 
@@ -52,20 +55,18 @@ footer a{
   color: #5FAFC9;
 }
 
-#stats .display-4{
+#stats .display-4, #demo .display-4{
   color: #559DB4;
 }
 
-#demo img{
-  max-height: 100%;
-  max-width: 100%;
+#hcb img{
+  max-width: 200px;
 }
 /* ----------------------------------------------------- */
 
 #team img{
-  width: 100%;
-  max-height: 100%;
   object-fit:cover;
+  border-radius: 5px;
 }
 
 #team i{
@@ -74,10 +75,6 @@ footer a{
 
 #team i:hover{
   color: #3c94b1;
-}
-
-#team img{
-  border-radius: 5px;
 }
 
 .navteams button{

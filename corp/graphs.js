@@ -13,7 +13,7 @@ var svg = d3.select("#budget")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Read data
-d3.csv('https://raw.githubusercontent.com/TeenHacksLI/teenhacksli/master/corp/data/budget.csv', function(data) {
+d3.csv('C:/Users/Jeffrey Yu/Documents/GitHub/teenhacksli/corp/data/budget.csv', function(data) {
 
   // stratify the data: reformatting for d3.js
   var root = d3.stratify()
