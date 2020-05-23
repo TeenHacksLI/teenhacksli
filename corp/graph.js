@@ -55,9 +55,9 @@ function drawRaceChart() {
   ['Race', 'Percent'],
   ['American Indian or Alaska Native', .016],
   ['Asian', .626],
-  ['Black', .447],
-  ['Hispanic', .065],
-  ['White', .065],
+  ['Black', .045],
+  ['Hispanic', .068],
+  ['White', .187],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -101,7 +101,7 @@ function drawBudgetChart() {
         var options = {
           minColor: '#559DB4',
           // midColor: '#ddd',
-          // maxColor: '#559DB4',
+          maxColor: '#DCDCDC',
           headerHeight: 30,
           fontColor: 'black',
           showScale: false,
