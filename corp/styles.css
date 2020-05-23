@@ -59,8 +59,18 @@ img{
   color: #559DB4;
 }
 
+
+#genderchart, #expchart, #racechart{
+  /* border-style: solid; */
+}
+
 #hcb img{
   max-width: 200px;
+}
+
+#lineleft hr{
+  text-align: left;
+  margin-left: 0;
 }
 /* ----------------------------------------------------- */
 
