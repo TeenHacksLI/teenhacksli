@@ -4,6 +4,7 @@ html, body {
   scroll-behavior: smooth;
 }
 
+
 selection {
   color: #fff;
   background: #45516B;
@@ -123,6 +124,40 @@ img{
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
+}
+
+#alumniPublic li{
+  display: block;
+  float: left;
+}
+
+.alumniPublic li{
+  display: block;
+  float: left;
+}
+
+.alumniPublic li a h5{
+  font-size: .9rem;
+}
+
+.alumniPublic li a p{
+  font-size: .75rem;
+}
+
+.alumniPublic .modal h5{
+  font-size: 1.2rem;
+}
+
+.alumniPublic .modal p{
+  font-size: .8rem;
+}
+
+.alumniPublic .card-text{
+  font-size: .8rem;
+}
+
+.alumniPublic li img:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* ----------------------------------------------------- */
 
