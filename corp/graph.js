@@ -86,14 +86,14 @@ function drawBudgetChart() {
           ['Utensils ', 'Food', 90.61, 0.66],
           ['Merch', 'Budget', 0, 32.46],
           ['T-Shirts', 'Merch', 600, 4.38],
-          ['Drawstring Bags', 'Merch', 3610.5, 26.34],
+          ['Drawstring Bags', 'Merch', 3610.5, 26.33],
           ['Stickers', 'Merch', 100, 0.73],
           ['Name Badges', 'Merch', 139.91, 1.02],
-          ['Programming', 'Budget', 0, 15.82],
-          ['Prizes', 'Programming', 1208, 8.81],
-          ['Activities', 'Programming', 679.94, 4.96],
-          ['Other', 'Programming', 70.81, 0.52],
-          ['Admin', 'Budget', 210, 1.53],
+          ['Programming', 'Budget', 0, 14.29],
+          ['Prizes', 'Programming', 1112, 8.11],
+          ['Activities', 'Programming', 656.5, 4.79],
+          ['Amenities', 'Programming', 190.75, 1.39],
+          ['Admin', 'Budget', 210, 1.53]
         ]);
 
         tree = new google.visualization.TreeMap(document.getElementById('budgetChart'));
