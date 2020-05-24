@@ -1,4 +1,5 @@
 const buildAlumniCard = alumnus => {
+  const li = document.createElement("li");
   const card = document.createElement("div");
   card.setAttribute("class", "card mb-3");
   const row = document.createElement("div");
@@ -46,7 +47,8 @@ const buildAlumniCard = alumnus => {
   const body = document.querySelector(".alumniData");
 
   // Append the elements to the DOM
-  body.append(card);
+  body.append(li);
+  li.append(card);
   card.append(row);
   row.append(col3);
   col3.append(img);
@@ -73,15 +75,37 @@ const buildAlumniCard = alumnus => {
 
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1VFZeNSSHlzccWxI_2fsWrHw-hIF11HF9hZ7BazGHJ8s/edit?usp=sharing';
 
-  function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
-                     simpleSheet: true } )
+function init() {
+  Tabletop.init( { key: publicSpreadsheetUrl,
+                   callback: showInfo,
+                   simpleSheet: true } )
+}
+
+function showInfo(data, tabletop) {
+
+  data.forEach(alumnus => buildAlumniCard(alumnus));
+}
+
+window.addEventListener('DOMContentLoaded', init)
+
+
+// SEARCH FUNCTION ------------------------------------------------------
+function search() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('alumniSearch');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("alumniUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("h5")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
   }
-
-  function showInfo(data, tabletop) {
-
-    data.forEach(alumnus => buildAlumniCard(alumnus));
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
+}
