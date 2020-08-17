@@ -104,6 +104,10 @@ a:hover, a:active {
 	background-color:#FFF !important;
 }
 
+.bg-grey {
+  background-color: #F9F9F9!important;
+}
+
 section.bg-light{
   background-color: #f2f2f2 !important;
 }
@@ -634,13 +638,14 @@ free to change back if you think that's better.
 }
 
 .bimg { 
-  width: 120%;
+  width: 100%;
   height: auto;
   text-align: center;
   margin-right: auto; 
   margin-left: auto;
   display: block;
  }
+ 
 .readmore {
   color: #ef5f2d
 }
