@@ -597,6 +597,84 @@ free to change back if you think that's better.
   font-size: 18px;
 }
 
+/*Blog Section ------------------------- */ 
+
+.row {
+  display: flex;
+}
+/* Create three columns that sits next to each other */
+.column {
+  flex: 33.333%;
+  padding: 4%;
+}
+
+.btitle {
+  font-size: 1.7vw;
+  padding-top: 1.7vw;
+  padding-bottom: 0vw;
+  text-align: left;
+  font-weight: 600;
+  color: #000000;
+}
+/* CSS for captions */
+.bby {
+    color: #5FAFC9;
+    font-weight: 450;
+    text-align: left;
+    padding-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.btext {
+  font-size: 1.2vw;
+  max-width: 85%;
+  font-weight: 450;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5vw
+}
+
+.bimg { 
+  width: 120%;
+  height: auto;
+  text-align: center;
+  margin-right: auto; 
+  margin-left: auto;
+  display: block;
+ }
+.readmore {
+  color: #ef5f2d
+}
+
+.buttondiv {
+  text-align: center;
+}
+
+button {
+    background-color: transparent;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    display: inline-block;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    padding: .375rem .75rem;
+    border-radius: 4px; 
+    font-size: 19px;
+}
+button:hover {
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+  color: white;
+}
+
+
+button:visited {
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+  color: white;
+  
+}
+
 /*-----------------------END SECTION STUFF-------------------------*/
 
 
