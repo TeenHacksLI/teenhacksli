@@ -23,6 +23,7 @@ a {
   padding: 2vw;
 }
 
+/*Create different sized columns*/
 .side {
   flex: 20%;
 }
