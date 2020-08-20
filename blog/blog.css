@@ -1,4 +1,4 @@
-rimgbody {
+body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   padding: 0.5vw;
 }
@@ -163,10 +163,11 @@ position: relative;
   max-width: 85%;
   font-weight: 450;
   font-family: 'Lato', sans-serif;
-  line-height: 1.5vw
+ /* line-height: 1.5vw; */
 }
 
 .readmore {
-  color: #ef5f2d
-  font-size: 1.5vw;
+  color: #ef5f2d;
+  font-size: 1.2vw;
+  position: absolute;
 }

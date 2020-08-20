@@ -4,9 +4,9 @@ html {
   height: 100%;
 }
 
-/**{
+*{
   box-sizing:border-box;
-}*/
+}
 
 html {
   scroll-behavior: smooth;
@@ -603,9 +603,26 @@ free to change back if you think that's better.
 
 /*Blog Section ------------------------- */ 
 
+@media only screen and (max-width: 2589px;) {
+.column {
+  float: left; 
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row: {
+  content: "";
+  display: table;
+  clear: both; 
+ }
+} 
+
 .row {
   display: flex;
+  width: auto;
+  margin: auto;
 }
+
 /* Create three columns that sits next to each other */
 .column {
   flex: 33.333%;
@@ -627,7 +644,7 @@ free to change back if you think that's better.
     text-align: left;
     padding-bottom: 1vw;
     font-size: 1.2vw;
-}
+  }
 
 .btext {
   font-size: 1.2vw;
@@ -638,20 +655,25 @@ free to change back if you think that's better.
 }
 
 .bimg { 
-  width: 100%;
+  max-width: 100%;
   height: auto;
   text-align: center;
   margin-right: auto; 
   margin-left: auto;
   display: block;
+  object-fit: contain;
+  min-width: 50%;
  }
  
 .readmore {
   color: #ef5f2d
+  font-size: 100%;
+  position: absolute;
 }
 
 .buttondiv {
   text-align: center;
+
 }
 
 button {
