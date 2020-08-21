@@ -629,6 +629,17 @@ free to change back if you think that's better.
   padding: 4%;
 }
 
+.bimg { 
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin-right: auto; 
+  margin-left: auto;
+  display: block;
+  object-fit: contain;
+  min-width: 50%;
+ }
+
 .btitle {
   font-size: 1.7vw;
   padding-top: 1.7vw;
@@ -637,7 +648,7 @@ free to change back if you think that's better.
   font-weight: 600;
   color: #000000;
 }
-/* CSS for captions */
+/* CSS for author */
 .bby {
     color: #5FAFC9;
     font-weight: 450;
@@ -653,21 +664,10 @@ free to change back if you think that's better.
   font-family: 'Lato', sans-serif;
   line-height: 1.5vw
 }
-
-.bimg { 
-  max-width: 100%;
-  height: auto;
-  text-align: center;
-  margin-right: auto; 
-  margin-left: auto;
-  display: block;
-  object-fit: contain;
-  min-width: 50%;
- }
  
 .readmore {
   color: #ef5f2d
-  font-size: 100%;
+  font-size: 1.2vw;
   position: absolute;
 }
 
