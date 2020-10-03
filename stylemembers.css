@@ -4,9 +4,10 @@ html {
   height: 100%;
 }
 
-/**{
+*{
   box-sizing:border-box;
-}*/
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
@@ -31,6 +32,7 @@ h5,
 h6,
 p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
 }
 
 p{
@@ -75,12 +77,12 @@ body:before {
 
 /*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS ----------------*/
 a:link, a:visited {
-	color: #5FAFC9;
-	transition: all 0.2s;
+  color: #5FAFC9;
+  transition: all 0.2s;
 }
 
 a:hover, a:active {
-	color: #F6D300 !important;
+  color: #F6D300 !important;
 }
 
 
@@ -97,11 +99,15 @@ a:hover, a:active {
 }
 
 .bg-lightBlue{
-	background-color:#AADAFF !important;
+  background-color:#AADAFF !important;
 }
 
 .bg-lighter {
-	background-color:#FFF !important;
+  background-color:#FFF !important;
+}
+
+.bg-grey {
+  background-color: #F9F9F9!important;
 }
 
 section.bg-light{
@@ -152,57 +158,63 @@ section {
 .section-heading {
   margin-top: 0;
 }
+/*------------ SECTION DESIGN AND STUFF END ----------------*/
 
-#schedule {
-  font-size: 14px;
-}
+/* Team Section---------------------------*/
 
-.time, .location, .event {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-top: 1px hsl(0, 0%, 85%) solid;
-}
-
-.event {
-  padding: 0;
-  /* border-radius: 4px; */
-  font-size: 15px;
-}.event:hover {
-  background-color: hsl(208, 54%, 90%);
-}
-
-.sched-link {
-  display: block;
-  font-weight: bold;
-  padding: 0.5rem;
-  padding-left: 15px;
-  color: black;
-}.sched-link:hover {
-  color: inherit;
-}
-
-.card-img-top{
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-#members .container .card p {
+#team .container .card p {
   text-align: left;
   align-items: center;
   font-size: 12px;
 }
 
-#members .container .card {
+#team .container .card {
   background-color: white;
-  border-radius: 1em;
+  border-radius: 2em;
   padding: 1em;
   margin: 1%;
   justify-items: center;
+ 
 }
 
-#members .container .card .card-title {
+#team .container .card .card-title {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
+
+#team .prog {
+  border-color: #EF5F2D;
+  border-width: medium;
+}
+
+#team .finance {
+  border-color: #FFD201;
+  border-width: medium;
+}
+
+#team .marketing {
+  border-color: #5FAFC9;
+  border-width: medium;
+}
+
+#team .logistics {
+  border-color: #EF5F2D;
+  border-width: medium;
+}
+
+#team .PR {
+  border-color: #FFD201;
+  border-width: medium;
+}
+
+#team .CA {
+  border-color: #5FAFC9;
+  border-width: medium;
+}
+
+
+
+
+/*-----------------------END SECTION STUFF-------------------------*/
 
