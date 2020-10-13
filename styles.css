@@ -442,7 +442,9 @@ i{
   width: 19%;
 }
 /* FAQ Section ------------------------*/
-
+#col-lg-3 {
+  text-align: center;
+}
 /* Application Section -----------------*/
 #apply button #dropdown-toggle{
 	font-size:calc(15px + .2vw);
