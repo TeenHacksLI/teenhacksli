@@ -1,3 +1,9 @@
+:root{
+  --primary-blue:#5FAFC9;
+  --primary-dark-blue: #45516B;
+  --primary-orange: #ef5f2d;
+  --primary-yellow:#ffd200;
+}
 body,
 html {
   width: 100%;
@@ -41,7 +47,7 @@ p{
 
 selection {
   color: #fff;
-  background: #45516B;
+  background: var(--primary-dark-blue);
   text-shadow: none;
 }
 
@@ -77,21 +83,21 @@ body:before {
 
 /*------------ GENERAL BACKGROUND COLORS AND TEXT DESINGS ----------------*/
 a:link, a:visited {
-  color: #5FAFC9;
+  color: var(--primary-blue);
   transition: all 0.2s;
 }
 
 a:hover, a:active {
-  color: #F6D300 !important;
+  color: var(--primary-yellow) !important;
 }
 
 
 .bg-primary{
-  background-color: #5FAFC9 !important;
+  background-color: var(--primary-blue) !important;
 }
 
 .bg-dark {
-  background-color: #45516B !important;
+  background-color: var(--primary-dark-blue) !important;
 }
 
 .bg-light{
@@ -119,7 +125,7 @@ section.bg-light{
 }
 
 hr.blueHR {
-  border-color: #5FAFC9 !important;
+  border-color: var(--primary-blue) !important;
 }
 
 hr.lightHR {
@@ -183,33 +189,33 @@ section {
   text-align: center;
 }
 
-#team .prog {
-  border-color: #EF5F2D;
+#team .programming {
+  border-color: var(--primary-orange);
   border-width: medium;
 }
 
 #team .finance {
-  border-color: #FFD201;
+  border-color: var(--primary-yellow);
   border-width: medium;
 }
 
 #team .marketing {
-  border-color: #5FAFC9;
+  border-color: var(--primary-blue);
   border-width: medium;
 }
 
 #team .logistics {
-  border-color: #EF5F2D;
+  border-color: var(--primary-orange);
   border-width: medium;
 }
 
 #team .PR {
-  border-color: #FFD201;
+  border-color: var(--primary-yellow);
   border-width: medium;
 }
 
 #team .CA {
-  border-color: #5FAFC9;
+  border-color: var(--primary-blue);
   border-width: medium;
 }
 
