@@ -518,6 +518,9 @@ div.mb-3.col-lg-8.mx-auto.text-center a{
   font-style: italic;
   font-family: 'Raleway';
 }
+div.px-10 *{
+  padding: 10px;
+}
 /*
 
 I don't know if y'all liked the colors? But the logos looked weird on
